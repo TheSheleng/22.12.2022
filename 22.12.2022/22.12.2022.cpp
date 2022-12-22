@@ -40,6 +40,8 @@ int main()
             FindPrintJSON(buff, L"txt\":");
             FindPrintJSON(buff, L"rate\":");
         }
+
+        file.close();
     }
 }
 
